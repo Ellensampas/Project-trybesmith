@@ -1,7 +1,7 @@
-import { Iproducts } from '../interfaces';
+import { IProducts } from '../interfaces';
 import modelProducts from '../models/productsModel';
 
-const addProducts = async (name: string, amount: string): Promise<Iproducts> => {
+const addProducts = async (name: string, amount: string): Promise<IProducts> => {
   const add = await modelProducts.addProducts(name, amount);
   const obj = {
     id: add,
@@ -11,7 +11,7 @@ const addProducts = async (name: string, amount: string): Promise<Iproducts> => 
   return obj;
 };
 
-const getProducts = async (): Promise<Iproducts[]> => {
+const getProducts = async (): Promise<IProducts[]> => {
   const infos = await modelProducts.listAllProducts();
   return infos;
 };
