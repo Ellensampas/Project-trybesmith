@@ -17,3 +17,8 @@ export interface IOrders{
   id: number;
   userId: number;
 }
+
+export interface ILogin {
+  username: string;
+  password: string;
+}
