@@ -1,13 +1,10 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Trybesmith
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+O projeto Trybesmith foi desenvolvido para fins de estudo e nele tive meu primeiro contato com typescript.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Nesse projeto eu: 
+
+- Apliquei typescript assim como a tipagem de funções e variáveis;
+- Construi uma API Node Express;
+- Desenvolvi um CRUD;
+- Desenvolvi endpoints para ler e escrever em um banco de dados com MYSQL;
